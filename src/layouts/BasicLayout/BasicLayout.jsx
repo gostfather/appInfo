@@ -16,17 +16,17 @@ export default class BasicLayout extends Component {
     return (
       <Layout className={styles.iceLayout}>
         <Header />
-        <Breadcrumb />
         <Layout.Section className={styles.iceLayoutSection}>
           <Layout.Aside>
             <Asdie />
           </Layout.Aside>
 
           <Layout.Main className={styles.iceLayoutMain} scrollable>
+            <Breadcrumb />
             <MainRoutes />
-            <Footer />
           </Layout.Main>
         </Layout.Section>
+        <Footer />
       </Layout>
     );
   }

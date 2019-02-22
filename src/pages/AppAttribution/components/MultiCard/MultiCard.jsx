@@ -91,7 +91,7 @@ export default class MultiCard extends Component {
 
 const styles = {
   container: {
-    margin: '20px',
+    // margin: '20px',
   },
   createScheme: {
     display: 'flex',

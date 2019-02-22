@@ -21,7 +21,7 @@ export default class Aside extends Component {
     const { pathname } = location;
 
     return (
-      <Nav selectedKeys={[pathname]} mode="inline" className="ice-menu-custom">
+      <Nav selectedKeys={[pathname]} openMode="single" mode="inline" className="ice-menu-custom">
         {asideMenuConfig &&
           asideMenuConfig.length > 0 &&
           asideMenuConfig.map((nav) => {
