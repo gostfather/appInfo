@@ -1,0 +1,26 @@
+.breadcrumbLayout {
+  margin: 10px;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+
+  .appInfo{
+    margin: 0 10px 0 0;
+  }
+
+  .groupName {
+    font-size: 22px;
+    color: #108ee9;
+  }
+
+  .appName {
+    font-size: 18px;
+    color: #00a2ae;
+  }
+
+  .mName {
+    font-size: 16px;
+    color: #f56a00;
+  }
+
+}
